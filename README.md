@@ -43,10 +43,3 @@ dotnet run --project CustomerDesk.Api
 
 ASP.NET Core does not load `.env` files by default, so this project does not need one.
 
-## Other project
-
-`GradeChecker` is a separate console application in this repository. Run it with:
-
-```powershell
-dotnet run --project GradeChecker
-```
