@@ -1,0 +1,36 @@
+# .NET build output
+**/bin/
+**/obj/
+**/out/
+
+# Visual Studio and editor files
+.vs/
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Local databases and SQLite journal files
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.sqlite-shm
+*.sqlite-wal
+
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+secrets.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+#sides
+GradeChecker/
